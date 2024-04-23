@@ -1,0 +1,113 @@
+/* Colors
+Dark blue: #223963
+Bright blue: #44abd6
+Light blue: #daeef7;
+Gray: #5a5a5a;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-style: normal;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    color: #223963;
+    font-size: 55px;
+}
+
+h1.white {
+    color: #fff;
+}
+
+h2 {
+    color:#223963;
+    font-size: 40px;
+}
+
+h2.white {
+    color: #fff;
+}
+
+p {
+    padding: 15px 0;
+}
+
+.nav-item a {
+    color: #223963;
+    font-weight: 400;
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+.nav-item a:hover {
+    background-color: #09814A;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.nav-item a.active {
+    font-weight: 600;
+}
+
+header img {
+    margin: 20px 45%;
+    min-width: 200px;
+    max-width: 200px;
+    width: 100%;
+}
+
+.row {
+    padding: 40px;
+    text-align: center;
+}
+
+#welcome, #quote {
+    background-color: #223963;
+    color: #fff;
+}
+
+#about, #contact {
+    background-color: #44abd4;
+}
+
+#results {
+    padding-bottom: 0;
+}
+
+.after-pics {
+    padding-top: 10px;
+}
+
+#quote form {
+    text-align: left;
+}
+
+.btn {
+    background-color: #44abd4;
+    border-color: #44abd4;
+    padding: 15px 20px;
+}
+
+.btn:hover {
+    background-color: #09814A;
+    border-color: #09814A;
+}
+
+.after-pics img {
+    max-width: 300px;
+}
+
+.dropdown {
+    margin-top: 20px;
+}
+
