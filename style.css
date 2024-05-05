@@ -10,7 +10,7 @@ Gray: #5a5a5a;
 body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-size: 16px;
+    font-size: 13px;
     font-style: normal;
 }
 
@@ -36,6 +36,11 @@ h2 {
 
 h2.white {
     color: #fff;
+}
+
+h4 {
+    color: #223963;
+    font-size: 22px;
 }
 
 p {
@@ -76,8 +81,26 @@ header img {
     color: #fff;
 }
 
-#about, #contact {
+#results, .after-pics, #contact {
     background-color: #44abd4;
+}
+
+.services img {
+    margin: 0 0 20px;
+    width: 100px;
+}
+
+.services p {
+    color: #5a5a5a;
+    margin-top: 5px;
+    padding: 0 0 3px;
+    text-align: left;
+}
+
+.services .note {
+    padding-top: 0;
+    font-size: 10px;
+    text-align: left;
 }
 
 #results {
@@ -86,6 +109,15 @@ header img {
 
 .after-pics {
     padding-top: 10px;
+}
+
+.after-pics img {
+    border: 1px solid #fff;
+    max-width: 300px;
+}
+
+.after-pics img:last-child {
+    border-width: 20px;
 }
 
 #quote form {
@@ -101,10 +133,6 @@ header img {
 .btn:hover {
     background-color: #09814A;
     border-color: #09814A;
-}
-
-.after-pics img {
-    max-width: 300px;
 }
 
 .dropdown {
